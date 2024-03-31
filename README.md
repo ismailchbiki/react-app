@@ -4,7 +4,7 @@
 
 Run the following command in the terminal to install the necessary package:
 
-```
+```bash
 npm install gh-pages --save-dev
 ```
 
@@ -12,7 +12,7 @@ npm install gh-pages --save-dev
 
 Add the following lines to the `package.json` file:
 
-```
+```bash
 {
   "homepage": "http://ismailchbiki.github.io/react-app",
   .
@@ -29,6 +29,6 @@ Add the following lines to the `package.json` file:
 After pushing all changes to Git, run the following command from the terminal:<br>
 The command will build the project and deploy it to GitHub Pages.
 
-```
+```bash
 npm run deploy
 ```
